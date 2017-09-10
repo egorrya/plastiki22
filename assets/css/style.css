@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
 .container-fluid {
   width: auto;
@@ -277,7 +277,7 @@ input { /* 1 */
   box-sizing: border-box;
 }
 body {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
   font-family: 'OpenSans', sans-serif;
   color: #81868e;
@@ -285,14 +285,14 @@ body {
   background-color: #fff;
 }
 h1 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Kelly Slab', cursive;
   font-size: 36px;
   line-height: 70px;
   font-style: 300;
   text-transform: uppercase;
 }
 h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Kelly Slab', cursive;
   font-size: 22px;
   line-height: 12px;
   font-style: 300;
@@ -342,15 +342,15 @@ img {
 }
 .home-section h1 {
   text-align: center;
-  color: #000;
+  color: #fff;
   font-size: 52px;
   line-height: 44px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 .home-section h2 {
   text-align: center;
-  color: #111;
-  font-size: 24px;
+  color: #fff;
+  font-size: 22px;
   line-height: 28px;
   padding-bottom: 15px;
 }
@@ -544,10 +544,10 @@ img {
   .home-section h1{
     font-size: 64px;
     line-height: 44px;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
   }
   .home-section h2{
-    font-size: 28px;
+    font-size: 26px;
     line-height: 34px;
     padding-bottom: 20px;
   }
@@ -579,28 +579,28 @@ img {
     backface-visibility: hidden;
   }
   .advantages__item:nth-child(1){
-    box-shadow: 0px 0px 6px 0.1px #00a0e3;
+    box-shadow: 0px 0px 26px 0.1px #00a0e3;
   }
   .advantages__item:nth-child(2){
-    box-shadow: 0px 0px 6px 0.1px #fbcc5e;
+    box-shadow: 0px 0px 26px 0.1px #fbcc5e;
   }
   .advantages__item:nth-child(3){
-    box-shadow: 0px 0px 6px 0.1px #d75e9e;
+    box-shadow: 0px 0px 26px 0.1px #d75e9e;
   }
   .advantages__item:nth-child(4){
-    box-shadow: 0px 0px 6px 0.1px #128dd7;
+    box-shadow: 0px 0px 26px 0.1px #128dd7;
   }
   .advantages__item:nth-child(5){
-    box-shadow: 0px 0px 6px 0.1px #ed2498;
+    box-shadow: 0px 0px 26px 0.1px #ed2498;
   }
   .advantages__item:nth-child(6){
-    box-shadow: 0px 0px 6px 0.1px #128dd7;
+    box-shadow: 0px 0px 26px 0.1px #128dd7;
   }
   .advantages__item:nth-child(7){
-    box-shadow: 0px 0px 6px 0.1px #fbcc5e;
+    box-shadow: 0px 0px 26px 0.1px #fbcc5e;
   }
   .advantages__item:nth-child(8){
-    box-shadow: 0px 0px 6px 0.1px #d75e9e;
+    box-shadow: 0px 0px 26px 0.1px #d75e9e;
   }
 }
 @media (min-width: 1200px){
@@ -629,7 +629,7 @@ img {
     padding-bottom: 135px;
   }
   .home-section h2{
-    font-size: 30px;
+    font-size: 28px;
     line-height: 32px;
     padding-bottom: 35px;
   }
