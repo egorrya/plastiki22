@@ -46,47 +46,92 @@
       </label> 
       <div class="main-nav__wrapper">
         <ul class="main-nav__items">
-          <li class="main-nav__item ">
-            <a href="#" class="active">Главная</a>
+          <a href="#" class="main-nav__item active">Главная</a>
+          <a href="#" class="main-nav__item">Прайс-лист</a>
+          <a href="#" class="main-nav__item">Фото</a>
+          <a href="#" class="main-nav__item">Cтатьи</a>
+          <a href="#" class="main-nav__item">Контакты</a>
+          <a href="#" class="main-nav__item main-nav__mobile-only">Товары</a>
+          <a href="#" class="main-nav__item main-nav__mobile-only">Услуги</a>
+          <li class="main-nav__item">
+            <dropdown>
+              <input id="toggle1" type="checkbox">
+              <label for="toggle1" class="label1 animate">Товары  <span>▼</span></label>
+              <ul class="animate">
+                <li class="animate">Теплицы</li>
+                <li class="animate">Комплектующие для теплиц</li>
+                <li class="animate">Сотовый поликарбонат</li>
+                <li class="animate">Монолитный поликарбонат</li>
+                <li class="animate">Профили из поликарбоната</li>
+                <li class="animate">Оргстекло</li>
+                <li class="animate">Листовой пластик ПВХ</li>
+                <li class="animate">Сэндвич-панели ПВХ</li>
+                <li class="animate">Клеи для пластиков</li>
+                <li class="animate">Светотехника</li>
+                <li class="animate">Прочие материалы для рекламы</li>
+              </ul>
+            </dropdown>
           </li>
           <li class="main-nav__item">
-            <a href="#">Прайс-лист</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Фото</a>
-          </li> 
-          <li class="main-nav__item">
-            <a href="#">Cтатьи</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#">Контакты</a>
-          </li>
-          <li class="main-nav__item">
-          <dropdown>
-            <input id="toggle1" type="checkbox">
-            <label for="toggle1" class="animate">Товары  <span>▼</span></label>
-            <ul class="animate">
-              <li class="animate">Source<i class="fa fa-code float-right"></i></li>
-              <li class="animate">Fullpage<i class="fa fa-arrows-alt float-right"></i></li>
-              <li class="animate">Debug<i class="fa fa-cog float-right"></i></li>
-            </ul>
-          </dropdown>
-          </li>
-          <li class="main-nav__item">
-          <dropdown>
-            <input id="toggle2" type="checkbox">
-            <label for="toggle2" class="animate">Услуги  <span>▼</span></label>
-            <ul class="animate">
-              <li class="animate">Source<i class="fa fa-code float-right"></i></li>
-              <li class="animate">Fullpage<i class="fa fa-arrows-alt float-right"></i></li>
-              <li class="animate">Debug<i class="fa fa-cog float-right"></i></li>
-            </ul>
-          </dropdown>
+            <dropdown>
+              <input id="toggle2" type="checkbox">
+              <label for="toggle2" class="label2 animate">Услуги  <span>▼</span></label>
+              <ul class="animate">
+                <li class="animate">Монтаж теплиц</li>
+                <li class="animate">Лазерная резка и гравировка</li>
+                <li class="animate">Изготовление различных изделий</li>
+                <li class="animate">Резка материалов</li>
+                <li class="animate">Доставка</li>
+                <li class="animate">Кредитование</li>
+              </ul>
+            </dropdown>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <section class="home-section">
+    <div class="container-fluid">
+      <h2>Добро пожаловать на сайт<br>компании</h2><h1>Пластик-центр</h1>
+    </div>
+  </section>
+  <section class="advantages">
+    <h2>Наша компания предлагает Вам по самым низким ценам</h2>
+    <div class="advantages__items">
+      <a href="#" class="advantages__item">
 
+        <h1 class="advantages__number">1</h1>
+        Теплицы
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">2</h1>
+        Листовые пластики ПВХ (вспененный и жесткий), ПЭТ
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">3</h1>
+        Акрил (оргстекло)
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">4</h1>
+        Полистирол и многие другие виды пластиков
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">5</h1>
+        Сотовый поликарбонат и монолитный поликарбонат
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">6</h1>
+        Светодиодные ленты и модули
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">7</h1>
+        Услуги лазерной резки и гравировки на собственном производстве
+      </a>
+      <a href="#" class="advantages__item">
+        <h1 class="advantages__number">8</h1>
+        Клеи для пластиков и прочие материалы
+      </a>
+    </div>
+  </section>
 </body>
 </html>
