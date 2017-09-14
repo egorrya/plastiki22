@@ -304,6 +304,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -330,6 +334,10 @@ img {
   line-height: 20px;
   font-style: 300;
   text-transform: uppercase;
+  color: #333;
+}
+.page-header__brand-text a {
+  text-decoration: none;
   color: #333;
 }
 .page-header__phone {
