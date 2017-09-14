@@ -35,6 +35,7 @@ body {
  * Add the correct display in IE 9-.
  */
 
+footer,
 header,
 nav,
 section {
@@ -280,7 +281,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   font-family: 'OpenSans', sans-serif;
-  color: #81868e;
+  color: #000;
   font-style: 400;
   background-color: #fff;
 }
@@ -403,6 +404,40 @@ img {
 .advantages__number {
   font-size: 40px;
   line-height: 6px;
+}
+.page-footer {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+.page-footer__author a {
+  line-height: 40px;
+  text-decoration: none;
+  color: #333;
+}
+.item-section {
+  padding: 50px 5px 0;
+  background: #000 url(../img/1.jpg) no-repeat center top;
+  background-size: cover;
+  width: 100%;
+}
+.item-section h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+  line-height: 44px;
+  padding-bottom: 70px;
+}
+.item-info {
+  width: auto;
+}
+.item-info__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.item-info__text {
+  margin-bottom: 25px;
 }
 @media (min-width: 768px){
   .container-fluid{
@@ -602,6 +637,30 @@ img {
   .advantages__item:nth-child(8){
     box-shadow: 0px 0px 26px 0.1px #d75e9e;
   }
+  .page-footer__author a{
+    margin-top: -30px;
+    float: right;
+  }
+  .item-section{
+    padding: 70px 20px 0;
+  }
+  .item-section h1{
+    font-size: 60px;
+    line-height: 44px;
+    padding-bottom: 100px;
+  }
+  .item-info{
+    width: 88%;
+    /* 640px / 768px */
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .item-info{
+    width: 88%;
+    /* 640px / 768px */
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
 @media (min-width: 1200px){
   .page-header__brand-text{
@@ -632,6 +691,14 @@ img {
     font-size: 28px;
     line-height: 32px;
     padding-bottom: 35px;
+  }
+  .item-section{
+    padding: 80px 20px 0;
+  }
+  .item-section h1{
+    font-size: 68px;
+    line-height: 44px;
+    padding-bottom: 120px;
   }
 }
 @media (min-width: 1200px) and (min-width: 768px){
@@ -750,5 +817,8 @@ img {
   }
   #hamburger:checked ~ .menuicon span::after{
     transform: rotate(-45deg);
+  }
+  .item-info{
+    padding: 0 20px;
   }
 }
